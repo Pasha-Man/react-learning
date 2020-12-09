@@ -7,7 +7,10 @@ class Display extends React.Component{
     }
     render(){
         return(
-            <div> </div>
+            <div>{this.props.string}
+            </div>
         )
     }
 }
+
+export default Display
